@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "24955D6A-0E78-4EE1-8F36-86D63C8365CE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC0AC5C0-BAE1-40F6-8EA6-9C3B17A2D401"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoViewer/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DC0AC5C0-BAE1-40F6-8EA6-9C3B17A2D401 - 20359a9e415affa6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoViewer.ViewController.__allocating_init(collectionViewLayout: __C.UICollectionViewLayout) -&gt; CryptoViewer.ViewController"
+                  moduleName = "CryptoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muzaffer/Desktop/CryptoViewer/CryptoViewer/CryptoViewer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "DC0AC5C0-BAE1-40F6-8EA6-9C3B17A2D401 - 2687ac20a9de0ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoViewer.ViewController.init(collectionViewLayout: __C.UICollectionViewLayout) -&gt; CryptoViewer.ViewController"
+                  moduleName = "CryptoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muzaffer/Desktop/CryptoViewer/CryptoViewer/CryptoViewer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "DC0AC5C0-BAE1-40F6-8EA6-9C3B17A2D401 - 47de6bfb9e2c31e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoViewer.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CryptoViewer.ViewController"
+                  moduleName = "CryptoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muzaffer/Desktop/CryptoViewer/CryptoViewer/CryptoViewer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "DC0AC5C0-BAE1-40F6-8EA6-9C3B17A2D401 - 569f40840a9ef44d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoViewer.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CryptoViewer.ViewController"
+                  moduleName = "CryptoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muzaffer/Desktop/CryptoViewer/CryptoViewer/CryptoViewer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "DC0AC5C0-BAE1-40F6-8EA6-9C3B17A2D401 - 25d51a339ceed861"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoViewer.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CryptoViewer.ViewController&gt;"
+                  moduleName = "CryptoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muzaffer/Desktop/CryptoViewer/CryptoViewer/CryptoViewer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "DC0AC5C0-BAE1-40F6-8EA6-9C3B17A2D401 - 2f025f4888807b3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoViewer.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CryptoViewer.ViewController&gt;"
+                  moduleName = "CryptoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muzaffer/Desktop/CryptoViewer/CryptoViewer/CryptoViewer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "DC0AC5C0-BAE1-40F6-8EA6-9C3B17A2D401 - d5f9529029deba5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoViewer.ViewController.__deallocating_deinit"
+                  moduleName = "CryptoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muzaffer/Desktop/CryptoViewer/CryptoViewer/CryptoViewer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37262ED3-50B4-4C27-ACD6-5697B278FAD4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoViewer/CryptoCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "CryptoCollectionViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "37262ED3-50B4-4C27-ACD6-5697B278FAD4 - 78d7c37511218d3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoViewer.CryptoCollectionViewCell.price.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "CryptoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muzaffer/Desktop/CryptoViewer/CryptoViewer/CryptoViewer/CryptoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "37262ED3-50B4-4C27-ACD6-5697B278FAD4 - 1235cc6ce530294a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoViewer.CryptoCollectionViewCell.price.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "CryptoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muzaffer/Desktop/CryptoViewer/CryptoViewer/CryptoViewer/CryptoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "37262ED3-50B4-4C27-ACD6-5697B278FAD4 - 83bc9ee4ae33639"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoViewer.CryptoCollectionViewCell.price.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "CryptoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muzaffer/Desktop/CryptoViewer/CryptoViewer/CryptoViewer/CryptoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "37262ED3-50B4-4C27-ACD6-5697B278FAD4 - a6193a4e79c5f1d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoViewer.CryptoCollectionViewCell.price.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CryptoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muzaffer/Desktop/CryptoViewer/CryptoViewer/CryptoViewer/CryptoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "37262ED3-50B4-4C27-ACD6-5697B278FAD4 - e4ed3f78fce4a58d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoViewer.CryptoCollectionViewCell.init(frame: __C.CGRect) -&gt; CryptoViewer.CryptoCollectionViewCell"
+                  moduleName = "CryptoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muzaffer/Desktop/CryptoViewer/CryptoViewer/CryptoViewer/CryptoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "37262ED3-50B4-4C27-ACD6-5697B278FAD4 - d4cc5b0d4a65313e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoViewer.CryptoCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CryptoViewer.CryptoCollectionViewCell&gt;"
+                  moduleName = "CryptoViewer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muzaffer/Desktop/CryptoViewer/CryptoViewer/CryptoViewer/CryptoCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "243">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
