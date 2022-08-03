@@ -9,9 +9,10 @@ import UIKit
 
 class CryptoCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var id : UILabel!
-    @IBOutlet weak var symbol : UILabel!
-    @IBOutlet weak var price : UILabel!
-    @IBOutlet weak var priceChange1D : UILabel!
+    @IBOutlet weak var idLabel : UILabel!
+    @IBOutlet weak var symbolLabel : UILabel!
+    @IBOutlet weak var priceLabel : UILabel!
+    @IBOutlet weak var priceChange1DLabel : UILabel!
 }
+
 

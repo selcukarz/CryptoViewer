@@ -1,16 +1,17 @@
 //
-//  CoinModel.swift
+//  CryptoModel.swift
 //  CryptoViewer
 //
-//  Created by Ramazan Ocak on 25.07.2022.
+//  Created by muzaffer on 25.07.2022.
 //
 
 import Foundation
 
-// MARK: - CoinModel
-struct CoinModel: Codable {
-    let coins: [Coin]
+// MARK: - Welcome
+struct Welcome: Codable {
+    let coins: [Coin]?
 }
+
 // MARK: - Coin
 struct Coin: Codable {
     let id: String?
@@ -27,6 +28,7 @@ struct Coin: Codable {
     let contractAddress: String?
     let decimals: Int?
     let redditURL: String?
+    
     
     enum CodingKeys: String, CodingKey {
         case id, icon, name, symbol, rank, price, priceBtc, volume, marketCap, availableSupply, totalSupply

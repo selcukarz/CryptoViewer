@@ -7,13 +7,27 @@
 
 import UIKit
 
-class ViewController: UICollectionViewController, UISearchResultsUpdating {
+class ViewController: UICollectionViewController, UISearchResultsUpdating,UICollectionViewDelegateFlowLayout {
     
-    var coins = [Coin]()
+    var coins = [Coin](){
+        didSet {
+            DispatchQueue.main.async {
+                self.collectionView.reloadData()
+            }
+            
+        }
+    }
+    
+    
+    private let itemsPerRow: CGFloat = 2
+    private let sectionInsets = UIEdgeInsets(
+      top: 50.0,
+      left: 20.0,
+      bottom: 50.0,
+      right: 20.0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         let search = UISearchController(searchResultsController: nil)
         search.searchResultsUpdater = self
         search.obscuresBackgroundDuringPresentation = false
@@ -21,15 +35,10 @@ class ViewController: UICollectionViewController, UISearchResultsUpdating {
         navigationItem.searchController = search
         title = "Crypto List"
         
-        //Alt satırda api'den aldığımız cevabı oluşturduğumuz metoda verdik. Bundan sonraki tüm işlemlerimizi self.coins üzerinden yapacağız.
         getUrl(completion: {response, err in
-            self.coins = response
-            
-            //Yukarda collectionview objesi oluşturup reload etmen gerek o yüzden aşağıyı şimdilik yorum olarak bırakıyorum.
-           // DispatchQueue.main.async {
-           //     self.collectionView.reloadData()
-           // }
+            self.coins = response!
         })
+        
     }
     
     func updateSearchResults(for searchController: UISearchController) {
@@ -41,10 +50,30 @@ class ViewController: UICollectionViewController, UISearchResultsUpdating {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? CryptoCollectionViewCell else {
             fatalError("CryptoCollectionViewCell not found")
         }
+        let coin = coins[indexPath.row]
+        cell.id.text = coin.name
+        //imageView.image = coin.icon
+        cell.priceChange1D.text = coin.priceChange1D?.description
+        if cell.priceChange1D.text!.starts(with: "-") {
+            cell.priceChange1D.textColor =  UIColor.red
+        } else {
+            cell.priceChange1D.textColor =  UIColor.green
+        }
+        cell.symbol.text = coin.symbol
+        cell.price.text = coin.price?.description
+        ///
         return cell
     }
     
-    func getUrl(completion: @escaping ([Coin], Error?) -> ()) {
+    override func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return coins.count
+    }
+    
+    func getUrl(completion: @escaping ([Coin]?, Error?) -> ()) {
         let url = URL(string: "https://api.coinstats.app/public/v1/coins")!
 
         let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
@@ -56,10 +85,42 @@ class ViewController: UICollectionViewController, UISearchResultsUpdating {
                 
             } catch let jsonError {
                 print("Failed to decode json", jsonError)
-                completion([], jsonError)
+                completion(nil, jsonError)
             }
 
         }
         task.resume()
     }
+    
+    func collectionView(
+        _ collectionView: UICollectionView,
+        layout collectionViewLayout: UICollectionViewLayout,
+        sizeForItemAt indexPath: IndexPath
+      ) -> CGSize {
+        let paddingSpace = sectionInsets.left * (itemsPerRow + 1)
+        let availableWidth = view.frame.width - paddingSpace
+        let widthPerItem = availableWidth / itemsPerRow
+        
+        return CGSize(width: widthPerItem, height: widthPerItem)
+      }
+      
+      func collectionView(
+        _ collectionView: UICollectionView,
+        layout collectionViewLayout: UICollectionViewLayout,
+        insetForSectionAt section: Int
+      ) -> UIEdgeInsets {
+        return sectionInsets
+      }
+      
+      func collectionView(
+        _ collectionView: UICollectionView,
+        layout collectionViewLayout: UICollectionViewLayout,
+        minimumLineSpacingForSectionAt section: Int
+      ) -> CGFloat {
+        return sectionInsets.left
+      }
+    
 }
+
+
+
